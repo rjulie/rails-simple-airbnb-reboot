@@ -19,3 +19,10 @@
   background-position: center;
   background-size: cover;
 }
+
+.center-cropped {
+  width: auto;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
