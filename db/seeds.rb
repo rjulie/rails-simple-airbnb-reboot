@@ -16,7 +16,8 @@ Flat.create!(
   address: '10 Clifton Gardens London W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 75,
-  number_of_guests: 3
+  number_of_guests: 3,
+  picture_url: 'https://images.unsplash.com/photo-1490197415175-074fd86b1fcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80'
 )
 
 Flat.create!(
@@ -24,7 +25,8 @@ Flat.create!(
   address: '12 Clifton Gardens London W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 60,
-  number_of_guests: 2
+  number_of_guests: 2,
+  picture_url: 'https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
 )
 
 Flat.create!(
@@ -32,7 +34,8 @@ Flat.create!(
   address: '8 Clifton Gardens London W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 85,
-  number_of_guests: 4
+  number_of_guests: 4,
+  picture_url: 'https://images.unsplash.com/photo-1563567795533-75e32e10f361?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80'
 )
 
 Flat.create!(
@@ -40,7 +43,8 @@ Flat.create!(
   address: '22 Clifton Gardens London W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 70,
-  number_of_guests: 3
+  number_of_guests: 3,
+  picture_url: 'https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
 )
 
 puts "Finished!"
