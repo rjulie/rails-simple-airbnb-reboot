@@ -1,4 +1,8 @@
-<nav class="navbar navbar-light bg-light">
-  <%= link_to "Simple Airbnb", root_path, class: "navbar-brand px-3" %>
+<nav class="navbar navbar-light bg-light d-flex">
+  <%= link_to "Simple Airbnb", root_path, class: "navbar-brand px-3 flex-grow-1" %>
+  <form class="d-flex" role="search">
+    <input class="form-control me-2" name="query" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
   <%= link_to "Add flat", new_flat_path, class: "btn btn-outline-primary px-3 mx-3" %>
 </nav>
